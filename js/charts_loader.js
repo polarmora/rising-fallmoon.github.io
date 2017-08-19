@@ -1,10 +1,4 @@
-var schema = [
-	{name: 'year', index: 0, text: '年份'},
-	{name: 'socre', index: 1, text: '评分'},
-	{name: 'gross', index: 2, text: '票房'},
-	{name: 'name', index: 3, text: '名称'},
-	{name: 'type', index: 4, text: '类型'}
-];
+
 
 //年份，评分，票房，名称，类型
 var dataCJS = [
@@ -29,7 +23,13 @@ var dataEDS = [
 var dataLCX = [
 	[2008,7.2,1547.6,"证人","动作 / 惊悚"]
 ];
-
+var schema = [
+	{name: 'year', index: 0, text: '年份'},
+	{name: 'socre', index: 1, text: '评分'},
+	{name: 'gross', index: 2, text: '票房'},
+	{name: 'name', index: 3, text: '名称'},
+	{name: 'type', index: 4, text: '类型'}
+];
 var itemStyle = {
 	normal: {
 		opacity: 0.8,
@@ -82,9 +82,8 @@ option = {
 		nameGap: 16,
 		nameTextStyle: {
 			color: '#fff',
-			fontSize: 14
+			fontSize: 16
 		},
-		max: 31,
 		splitLine: {
 			show: false
 		},
@@ -97,8 +96,6 @@ option = {
 	yAxis: {
 		type: 'value',
 		name: '票房',
-		nameLocation: 'end',
-		nameGap: 20,
 		nameTextStyle: {
 			color: '#fff',
 			fontSize: 16
