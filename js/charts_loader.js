@@ -84,6 +84,8 @@ option = {
 			color: '#fff',
 			fontSize: 16
 		},
+		min: 2000,
+		max: 2020,
 		splitLine: {
 			show: false
 		},
@@ -100,6 +102,8 @@ option = {
 			color: '#fff',
 			fontSize: 16
 		},
+		min:0,
+		max:50000,
 		axisLine: {
 			lineStyle: {
 				color: '#eee'
