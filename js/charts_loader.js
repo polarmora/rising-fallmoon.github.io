@@ -41,7 +41,7 @@ var itemStyle = {
 };
 
 // 指定图表的配置项和数据
-var option = {
+option = {
 	backgroundColor: '#404a59',
 	color: [
 		'#dd4444', '#fec42c', '#80F1BE'
